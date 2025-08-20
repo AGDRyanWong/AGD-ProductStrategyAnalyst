@@ -52,21 +52,21 @@ Here is the information for your Jira ticket. Please copy the content for each f
 ---
 
 **Description:**
-h2. Steps to Reproduce:
+Steps to Reproduce:
 1. [Step 1]
 2. [Step 2]
 3. [Step...]
 
-h2. Actual Result:
+Actual Result:
 [Detailed description of what actually happened.]
 
-h2. Expected Result:
+Expected Result:
 [Detailed description of what the user expected to happen.]
 
 ---
 
 **Priority:**
-[Low, Medium, High, or Critical]
+[Lowest, Low, Medium, High, or Highest]
 
 ---
 
@@ -120,4 +120,5 @@ if user_prompt:
     # Display model's response
     with st.chat_message("assistant"):
         st.markdown(response.text)
+
 
